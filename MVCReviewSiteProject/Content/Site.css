@@ -26,11 +26,16 @@ textarea {
 
 .jumbotron {
     text-align: center;
-    /*background-image: url('Images/DirectionPicture.jpg');*/
     font-family: 'Roboto', sans-serif;
-    
+    background-image: url('Images/TravelPic.jpg');
+    /*opacity:0.3;*/
+    image-resolution:100dpi;
 }
 
 .col-md-4 {
+    text-align:center;
+}
+
+h2 {
     text-align:center;
 }
