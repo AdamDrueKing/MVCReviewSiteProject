@@ -1,7 +1,9 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Playfair Display', serif;
+    /*background-image: url('Images/SandBackground.jpg');
+    opacity: 0.3;*/
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -26,16 +28,24 @@ textarea {
 
 .jumbotron {
     text-align: center;
-    font-family: 'Roboto', sans-serif;
-    background-image: url('Images/TravelPic.jpg');
+    font-family: 'Playfair Display', serif;
+    color: white;
+    /*background-image: url('Images/TravelPic.jpg');*/
     /*opacity:0.3;*/
-    image-resolution:100dpi;
+    image-resolution: 100dpi;
 }
 
 .col-md-4 {
     text-align:center;
+    padding:0px;
+    margin:0px;
+    border:0px;
 }
 
 h2 {
     text-align:center;
+}
+
+.thumbnail {
+
 }
