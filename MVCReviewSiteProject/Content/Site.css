@@ -1,9 +1,8 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
-    font-family: 'Playfair Display', serif;
-    /*background-image: url('Images/SandBackground.jpg');
-    opacity: 0.3;*/
+    font-family: 'Playfair Display', serif; 
+    background-color: #EDEDED;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -46,6 +45,4 @@ h2 {
     text-align:center;
 }
 
-.thumbnail {
 
-}
