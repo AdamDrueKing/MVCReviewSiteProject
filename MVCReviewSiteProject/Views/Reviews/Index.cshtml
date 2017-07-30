@@ -6,15 +6,15 @@
 
 <h2 style="font-family: 'Questrial', sans-serif;">User Reviews</h2>
 
-<p style="text-align:center; font-family: 'Questrial', sans-serif;">
+<p style="text-align:center; font-family: 'Questrial', sans-serif; background-color:#EDEDED; padding:10px;">
     @Html.ActionLink("Create A New Review", "Create")
 </p>
 
 
-<div class="row">
+<div class="row" style="background-color:#EDEDED; padding:15px;">
     @foreach (var item in Model)
     {
-        <div class="thumbnail col-md-4 colBorder" style="font-family: 'Shadows Into Light', cursive; text-align:justify; min-height: 500px">
+        <div class="thumbnail col-md-4 colBorder" style="font-family: 'Shadows Into Light', cursive; text-align:justify; min-height: 500px; padding:15px;">
             <div class="middle"></div>
                             <h4>
                                 Location:  @Html.DisplayFor(modelItem => item.Category.Name)
