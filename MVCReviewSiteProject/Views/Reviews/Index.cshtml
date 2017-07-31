@@ -29,7 +29,7 @@
                                 Travel Date:  @Html.DisplayFor(modelItem => item.TravelDate)
                             </h4>
                             <h4>
-                                Review Date:  @Html.DisplayFor(modelItem => item.ReviewDate)
+                                Review Date:  @item.ReviewDate.ToShortDateString()
                             </h4>
                             <h4>
                                 Review:  @Html.DisplayFor(modelItem => item.Review)
